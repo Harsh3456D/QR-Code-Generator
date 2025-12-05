@@ -59,9 +59,10 @@ button = Button(QRgenerator, text="Generate",
 button.place(x=175, y=340)
 
 bottomLabel = Label(QRgenerator, text='Kindly check the output folder afterwards',
-                 font=('Arial', 16, 'bold'), background="black",
-                 fg='White', image=tk_image, compound='bottom')
-bottomLabel.place(x=175, y=380)
+                 font=('Arial'), background="black",
+                 fg='White')
+bottomLabel.place(x=75, y=380)
 QRgenerator.mainloop()
+
 
 
